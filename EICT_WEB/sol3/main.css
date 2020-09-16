@@ -1,0 +1,132 @@
+label{
+    color: yellow;
+    padding-right: 30px;
+}
+input:focus{
+    outline: 0 !important;
+}
+select:focus{
+    outline: 0 !important;
+}
+.Tinput{
+    height: 50px;
+    width: 400px;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(18, 18, 44);
+    color: white;
+    border: solid 2px;
+    width: 720px;
+}
+.form h3{
+    color: yellow;
+    margin: 0;
+    height: 35px;
+    padding: 10px 0 0 10px;
+    background-color: orange;
+}
+.form-elem{
+    margin: 20px;
+    flex-direction: column;
+    font-size: 20px;
+    text-align: right;
+    align-items: flex-end;
+}
+.form-elem input{
+    height: 30px;
+    border-radius: 5px;
+}
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+    background-color: orange;
+}
+.button{
+    border-radius: 5px;
+    border: none;
+    width: 95px;
+    margin: 6px;
+}
+.button:focus{
+    outline: 0 !important;
+}
+.sub:active{
+    background-color: green;
+}
+.can:active{
+    background-color: rgb(224, 32, 32) ;
+}
+.sub{
+    color: white;
+    background-color: rgb(44, 190, 44);
+}
+.can{
+    color: white;
+    background-color:red;
+}
+.select{
+    border-radius: 6px;
+    height: 35px;
+    width: 410px;
+    text-align: center;
+}
+.date-month{
+    width: 130px;
+    margin-right: 25px;
+}
+.date-day{
+    width: 95px;
+    margin-right: 25px;
+}
+.date-year{
+    width: 120px;
+}
+.radio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 600px){
+    .Tinput{
+        height: 50px;
+        width: auto;
+    }
+    .select{
+        border-radius: 6px;
+        height: 35px;
+        width: 170px;
+        text-align: center;
+    }
+    .date-month{
+        width: 20%;
+    }
+    .date-day{
+        width: 10%;
+    }
+    .date-year{
+        width: 15%;
+    }
+}
+/* @media screen and (max-width: 450px){
+    .Tinput{
+        height: 50px;
+        width: auto;
+    }
+    .date-month{
+        width: auto;
+    }
+    .date-day{
+        width: auto;
+    }
+    .date-year{
+        width: auto;
+    }
+} */

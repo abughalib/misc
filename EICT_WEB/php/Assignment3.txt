@@ -1,0 +1,37 @@
+Using PHP
+=>	Consider a numbers. Write program to calculate the sum of digits.
+=>	Write a program to check the number is prime or not. 
+=>	Write a program to find factorial of a given no.
+=>	Write a program to print out all Armstrong numbers between 100 and 999. 
+=>	Write an application that calculates the squares and cubes of the numbers from 0 to 10 and prints the resulting values in table format, as follows
+	Number	Square	Cube
+	0	0	0
+	1	1	1
+	2	2	8
+	3	9	27
+	4	16	64
+	5	25	125
+	6	36	216
+	7	49	343
+	8	64	512
+	9	81	729
+	10	100	1000
+=> Create a PHP script which display the name of 15 users from array on to the list.
+=> Create a PHP script which display the information of 20 students in tabular format that stored in an array.
+Ex:
+	SNo.	Name	 Course	Batch 		Contact Number
+	1	Ajay	 BTECH	BTECH01		+91------
+	2	Vijay	 BCA	BCA01		+91------
+	3	Ranvijay BTECH	BTECH01		+91------
+	4	Sanjay	 MTECH	MTECH02		+91------
+	5	Digvijay MTECH	MTECH01		+91------
+
+
+
+
+
+
+
+
+
+
