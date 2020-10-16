@@ -2,23 +2,25 @@
 
 using namespace std;
 
+template<typename T>
 struct Node{
-int value;
+T value;
 Node* next;
-Node(int val): value(val), next(nullptr){}
+Node(T val): value(val), next(nullptr){}
 };
 
+template<typename T>
 class Stack{
 private:
-  Node* root;
-  int size;
+  Node<T>* root;
+  T size;
 public:
   Stack(){
     this->root = nullptr;
     this->size = 0;
   }
-  void push(int val){
-    Node* newNode = new Node(val);
+  void push(T val){
+    Node<T>* newNode = new Node(val);
     if(root == nullptr) root = newNode;
     else{
       newNode->next = this->root;
@@ -39,7 +41,7 @@ public:
 
   int length(){return this->size;}
   void printStk(){
-    Node* temp = this->root;
+    Node<T>* temp = this->root;
     while(temp != nullptr){
       cout <<temp->value <<" ";
       temp = temp->next;
@@ -49,7 +51,7 @@ public:
 
 int main(){
 
-  Stack stk;
+  Stack<long> stk;
 
   stk.push(1);
   stk.push(2);
