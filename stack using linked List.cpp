@@ -13,7 +13,7 @@ template<typename T>
 class Stack{
 private:
   Node<T>* root;
-  T size;
+  long long size;
 public:
   Stack(){
     this->root = nullptr;
@@ -33,13 +33,13 @@ public:
       root = root->next;
     }
   }
-  int top(){
+  T top(){
     if(this->root != nullptr)
       return this->root->value;
     return -1;
   }
 
-  int length(){return this->size;}
+  long long length(){return this->size;}
   void printStk(){
     Node<T>* temp = this->root;
     while(temp != nullptr){
